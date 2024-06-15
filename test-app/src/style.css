@@ -94,3 +94,21 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.container {
+  display: flex;
+}
+
+#chart-image, #checkboxes {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
